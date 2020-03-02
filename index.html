@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -13,7 +13,7 @@
   </head>
   <body>
   	<!--Header-->
-  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navFondo">
+  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark navFondo  sticky-top">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -23,38 +23,109 @@
 	    
 		    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">¿Quién es?<span class="sr-only">(current)</span></a>
+		        <a class="nav-link" href="#main">Inicio<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Intereses</a>
+		        <a class="nav-link" href="#card">Intereses</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Habilidades</a>
+		        <a class="nav-link" href="#certifications">Certificaciones</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Experiencia</a>
 		      </li>
 		    </ul>
 		  </div>
 	  </div>
 	</nav>
 	<!--/Header-->
-	<!--Contenido-->
-	<div class="container">
+	<!--main-->
+	<div id="main" class="img">
+		<div class="container">
+			<div class="row pt-3 pb-3">
+				<div class="col col-md-4 offset-md-8 text-white bg-dark" >
+					<h2>Mi nobre es </h2><h1>Hiram Montesillo</h1>
+					<p>Desarrollador Frontend.</p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!--main-->
+	<!--Card-->
+		<div id="card" class="container text-center">
+			<div class="row pt-3 pb-3">
+				<div class="col col-md-3 offset-md-3">
+					<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/yo.jpg" alt="Card image cap">
+
+					</div>
+				</div>
+				<div class="col-12 col-md-3 offset-md-1">
+					 <div class="badges space">
+					 	<h3>Hiram Montesillo</h3>
+		                	<span class="badge badge-warning">JavaScript</span>
+		                	<span class="badge badge-secondary">C#</span>
+		                	<span class="badge badge-danger">Java</span>
+		                	<span class="badge purple">Boostrap</span>
+		                </div>
+					    <p class="mt-2">Apasionado por aprender y obtener nuevos retos. Soy alguien que piensa que nunca debemos dejar de creer en nosotros mismos.</p>
+				</div>
+			</div>
+		</div>
+	<!--/Card-->
+	<!--certifications-->
+	<div class="container" id="certifications">
 		<div class="row">
-		<div class="col col-md-6 pt-3">
-			<h1>¿Quién es?</h1>
-			<p>Hiram Montesillo, es una persona amante de la tecnología. Le gusta estudiar y jugar video juegos. Programador en Java, JavaScript, C# y PHP. </p>
-			<p>En sus tiempos libre es entrenador Pokemon y un apasionado por descubrir algo nuevo cada día y nunca parar de aprender. </p>
+			<div class="col">
+				<h1>Certificaciones</h1>
+			</div>
 		</div>
-		<div class="col col-md-6 pt-3">
-			<img src="img/yo.jpg" width="450px">
+		<div class="row">
+			<div class="col pt-3">
+				
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/basica.jpg" alt="Card image cap">
+				</div>
+			</div>
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/bootstrap.jpg" alt="Card image cap">
+				</div>
+			</div>
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/c.jpg" alt="Card image cap">
+				</div>
+			</div>
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/free.jpg" alt="Card image cap">
+				</div>
+			</div>
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/laravel.jpg" alt="Card image cap">
+				</div>
+			</div>	
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/marca.jpg" alt="Card image cap">
+				</div>
+			</div>	
+			<div class="col pt-3">
+				<div class="card" style="width: 18rem;">
+					  <img class="card-img-top" src="img/sql.jpg" alt="Card image cap">
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col col-md-6 pt-4">
-			<h1>Intereses</h1>
-		</div>
-	</div>
-	</div>
-	<!--Contenido-->
+	<!--/certifications-->
+	<!--footer-->
+		<footer class="bg-dark text-white pt-3 pb-3">
+			Hecho por Hiram Montesillo
+		</footer>
+	<!--/footer-->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

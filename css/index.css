@@ -1,0 +1,25 @@
+html, body{
+	padding: 0px;
+	margin: 0px;
+}
+.navFondo {
+	background-color: #0068D1 !important;
+}
+
+.img{
+	background-image: url("../img/0.jpg");
+}
+
+.purple{
+	color: white;
+	background-color: #3B23A7;
+}
+.space{
+	margin-top: 60px;
+}
+
+#certifications img{
+	max-width: 350px;
+	padding: 1%;
+	align-items: center;
+}
