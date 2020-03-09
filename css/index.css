@@ -7,7 +7,7 @@ html, body{
 }
 
 .img{
-	background-image: url("../img/0.jpg");
+	background-image: url("../img/portada.jpg");
 }
 
 .purple{
@@ -22,4 +22,7 @@ html, body{
 	max-width: 350px;
 	padding: 1%;
 	align-items: center;
+}
+footer a{
+	color: white;
 }
