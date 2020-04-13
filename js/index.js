@@ -1,6 +1,6 @@
   document.addEventListener("DOMContentLoaded", function(event) {
   	var img_aleatoria = [];
-  	var certificados = 11;
+  	var certificados = 12;
     for (var i = 0; i < 3; i++) {
     	if (i == 0) {
     		img_aleatoria[i] = Math.round(Math.random()*certificados);
