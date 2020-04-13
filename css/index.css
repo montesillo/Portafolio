@@ -29,3 +29,49 @@ footer a{
 .experence-imgContainer img{
 	width: 100%;
 }
+.certifications{
+	display: grid;
+	grid-template-columns: minmax(auto, 1024px);
+	justify-content: center;
+}
+.hero{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-areas: "title title title"
+						 "img-1 img-2 img-3";
+	
+	grid-gap: 10px;
+	justify-items: center;
+}
+.title{
+	grid-area: title;
+}
+.img-1{
+	grid-area: img-1;
+}
+.img-2{
+	grid-area: img-2;
+}
+.img-3{
+	grid-area: img-3;
+}
+@media screen and (max-width: 920px){
+	.hero{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas: "title img-1"
+							 "img-2 img-3";
+		
+		grid-gap: 10px;
+	}
+}
+@media screen and (max-width: 780px){
+	.hero{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas: "title"
+							 "img-1"
+							 "img-2" 
+							 "img-3";
+		
+		grid-gap: 10px;
+	}
+}
