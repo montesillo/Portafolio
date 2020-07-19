@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Roboto+Slab:400,500,700,900|Roboto:400,500,700&display=swap');
+*{
+	font-family: 'Roboto Mono', monospace;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #3498DB;
+}
+.icons{
+	width: 500px;
+	height: auto;
+	display: flex;
+	justify-items: flex-end;
+	align-items: center;
+	justify-content: space-between;
+	justify-self: start;
+	margin-left: 50px;
+}
+.icons a{
+
+}
+.surf{
+	width: 500px;
+	height: auto;
+	display: flex;
+	justify-items: flex-end;
+	align-items: center;
+	justify-content: space-between;
+	justify-self: end;
+	margin-right: 50px;
+}
+.surf a{
+	color: white;
+	text-decoration: none;
+}
+.coverPage{
+	padding-left: 70px;
+	padding-right: 70px;
+	background: #ABB2B9;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+.presentation{
+	margin: 25px 25px 25px 25px;
+}
+.presentation h3{
+	color: white;
+	margin-bottom: 25px;
+}
+.image{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+.image img{
+	height: 200px;
+	width: auto;
+	border: #3498DB solid 3px;
+}
+.hero{
+	padding-left: 70px;
+	padding-right: 70px;
+	display: grid;
+	grid-template: 100px 500px / repeat(3, 1fr);
+	grid-template-areas: "skills skills skills"
+						"proyects proyects proyects";
+}
+.skills{
+	grid-area: skills;
+}
+.proyects{
+	display: flex;
+	justify-content: center;
+}
+.proyects .box-proyects{
+	text-align: center;
+	padding: 5px;
+}
+.image-proyects img{
+	height: 200px;
+	width: 400px;
+	border: #ABB2B9 solid 1px;
+	border-radius: 5px;
+}
+.proyects .text-proyects{
+	text-align: start;
+}
+.proyects .text-proyects h4{
+	text-align: center;
+}
