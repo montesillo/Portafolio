@@ -25,7 +25,7 @@
 .icons a{
 
 }
-.surf{
+.menu{
 	width: 500px;
 	height: auto;
 	display: flex;
@@ -35,14 +35,22 @@
 	justify-self: end;
 	margin-right: 50px;
 }
-.surf a{
+.menu a{
 	color: white;
 	text-decoration: none;
+}
+.namePage{
+	padding: 15px 0 15px 50px;
+}
+.namePage p{
+	text-align: left;
+	font-size: 1.5em;
+	font-weight: 700;
 }
 .coverPage{
 	padding-left: 70px;
 	padding-right: 70px;
-	background: #ABB2B9;
+	background: #4B6475;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 }
@@ -63,34 +71,86 @@
 	width: auto;
 	border: #3498DB solid 3px;
 }
-.hero{
-	padding-left: 70px;
-	padding-right: 70px;
-	display: grid;
-	grid-template: 100px 500px / repeat(3, 1fr);
-	grid-template-areas: "skills skills skills"
-						"proyects proyects proyects";
-}
 .skills{
-	grid-area: skills;
+	padding: 10px;
+}
+.skills p{
+	font-size: 1.3em;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: 900;
+}
+.skills li{
+	display: inline;
+	text-align: center;
+	padding: 60px;
+}
+.title-proyects p{
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 900;
+}
+.content-proyects{
+	width: 1000px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-areas: "proyects proyects";
 }
 .proyects{
-	display: flex;
-	justify-content: center;
+	display: inherit;
+	justify-content: inherit;
+	border: #ABB2B9 solid 1px;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 5px 5px;
+	background-color: #4B6475;
 }
 .proyects .box-proyects{
 	text-align: center;
-	padding: 5px;
 }
 .image-proyects img{
-	height: 200px;
-	width: 400px;
-	border: #ABB2B9 solid 1px;
-	border-radius: 5px;
+	height: 250px;
+	width: 500px;
 }
 .proyects .text-proyects{
 	text-align: start;
+	border: #3498DB 2px solid;
+	margin: 30px 60px;
+	margin-top: -70px;
+	background-color: white;
+	position: relative;
+	border-radius: 10px;
 }
 .proyects .text-proyects h4{
 	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 1.3em;
+	font-weight: 700;
+}
+.text-proyects button{
+	display: inherit;
+	width: 90%;
+	padding: 10px 15px;
+	margin: 10px auto;
+	background-color: white;
+	border: #3498DB 1px solid;
+	border-radius: 5px;
+	color: #3498DB;
+}
+.text-proyects button:hover{
+	color: white;
+	background-color: #3498DB;
+	border: white 1px solid;
+	cursor: pointer;
+}
+.footer{
+	padding: 25px 0;
+	background: #3498DB;
+}
+.footer p{
+	font-size: 1.1em;
+	text-align: center;
+	color: white;
+	font-weight: 500;
 }
