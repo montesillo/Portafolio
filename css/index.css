@@ -11,6 +11,10 @@
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: #3498DB;
+	position: fixed;
+	width: 100%;
+	z-index: 3;
+	top: 0;
 }
 .icons{
 	width: 500px;
@@ -38,6 +42,13 @@
 .menu a{
 	color: white;
 	text-decoration: none;
+}
+.menu a:hover{
+	color: #4B6475;
+	font-weight: 700;
+}
+.main{
+	margin-top: 72px;
 }
 .namePage{
 	padding: 15px 0 15px 50px;
@@ -83,7 +94,8 @@
 .skills li{
 	display: inline;
 	text-align: center;
-	padding: 60px;
+	padding: 80px;
+	margin: 0 auto;
 }
 .title-proyects p{
 	text-align: center;
@@ -145,6 +157,7 @@
 	cursor: pointer;
 }
 .footer{
+	margin-top: 20px;
 	padding: 25px 0;
 	background: #3498DB;
 }

@@ -4,38 +4,39 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/index.css">
+	<script src="js/index.js"></script>
 	<title>Hiram Montesillo</title>
 </head>
 <body>
 	<header class="header">
 		<section class="icons">
-			<a href=""><img src="img/face.png" alt=""></a>
-			<a href=""><img src="img/twitter.png" alt=""></a>
-			<a href=""><img src="img/insta.png" alt=""></a>
+			<a href="https://www.facebook.com/hmontesillo"><img src="img/face.png" alt=""></a>
+			<a href="https://twitter.com/HMontesillo25"><img src="img/twitter.png" alt=""></a>
+			<a href="https://www.instagram.com/hirammontesillo"><img src="img/insta.png" alt=""></a>
 			<a href=""><img src="img/youtube.png" alt=""></a>
-			<a href=""><img src="img/linkedin.png" alt=""></a>
+			<a href="https://www.linkedin.com/in/hiram-sanchez-montesillo-493251115/"><img src="img/linkedin.png" alt=""></a>
 		</section>
 		<section class="menu">
-			<a href="">Inicio</a>
-			<a href="">Habilidades</a>
-			<a href="">Proyectos</a>
+			<a href="#inicio">Inicio</a>
+			<a href="#habilidades">Habilidades</a>
+			<a href="#proyectos">Proyectos</a>
 		</section>
 	</header>
 	<main class="main">
 		<div class="namePage">
 			<p>Este es mi portafolio</p>
 		</div>
-		<section class="coverPage">
+		<section class="coverPage" id="inicio">
 			<div class="presentation">
 				<h3>Hola, mi nombre es Hiram Montesillo</h3>
-				<p>Apasionado por aprender y obtener nuevos retos. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo vero quas dignissimos ea tenetur praesentium debitis rerum modi aut, consectetur cum magni quia molestias! Blanditiis nemo quaerat iusto quasi. Beatae?</p>
+				<p>Apasionado por aprender y obtener nuevos retos. </p>
 			</div>
 			<div class="image">
 				<img src="img/yo.jpg" alt="">
 			</div>
 		</section>
 		<section class="hero">
-			<div class="skills">
+			<div class="skills" id="habilidades">
 				<p>Habilidades</p>
 				<ol>
 					<li><img src="img/js.png" alt=""></li>
@@ -45,21 +46,21 @@
 					<li><img src="img/csharp.png" alt=""></li>
 				</ol>
 			</div>
-			<div class="title-proyects">
+			<div class="title-proyects" id="proyectos">
 				<p>Proyectos</p>
 			</div>
 			<div class="content-proyects">
 				<div class="proyects">
 					<div class="box-proyects">
 						<div class="image-proyects">
-							<img src="img/brand.jpg" alt="">
+							<img src="img/video.jpg" alt="">
 						</div>
 						<div class="text-proyects">
-							<h4>Brand</h4>
+							<h4>Platzi Video</h4>
 							<p>
-								Este es una página web que se conecta con Paypal para realizar comparas de los productos ofrecidos. Se hizo el proceso completo de creación de un producto digital, desde la creación del paper wireframe para definir el flujo de navegación, pasando por el diseño y maquetación, hasta la publicación usando Github.
+								Es un proyecto donde obtenemos los datos de las películas al consumir una API, hace una búsqueda, muestra la descripción de cada película y puede hacer búsquedas.
 							</p>
-							<button href="">Ir</button>
+							<button onclick="redirect(1)">Ir</button>
 						</div>
 					</div>
 				</div>
@@ -73,7 +74,7 @@
 							<p>
 								Este sitio fue creado para la PlatziConf Hawaii, se creo con BOTSTRAP que es uno de Frameworks de diseño más utilizados. 
 							</p>
-							<button href="">Ir</button>
+							<button onclick="redirect(2)">Ir</button>
 						</div>
 					</div>
 				</div>
@@ -97,14 +98,14 @@
 				<div class="proyects">
 					<div class="box-proyects">
 						<div class="image-proyects">
-							<img src="img/video.jpg" alt="">
+							<img src="img/brand.jpg" alt="">
 						</div>
 						<div class="text-proyects">
-							<h4>Platzi Video</h4>
+							<h4>Brand</h4>
 							<p>
-								Es un proyecto donde obtenemos los datos de las películas al consumir una API, hace una búsqueda, muestra la descripción de cada película y puede hacer búsquedas.
+								Este es una página web que se conecta con Paypal para realizar comparas de los productos ofrecidos. Se hizo el proceso completo de creación de un producto digital, desde la creación del paper wireframe para definir el flujo de navegación, pasando por el diseño y maquetación, hasta la publicación usando Github.
 							</p>
-							<button href="">Ir</button>
+							<button onclick="redirect(3)">Ir</button>
 						</div>
 					</div>
 				</div>
