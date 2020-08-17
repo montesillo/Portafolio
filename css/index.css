@@ -140,6 +140,9 @@
 	font-size: 1.3em;
 	font-weight: 700;
 }
+.text-proyects p{
+	padding: 0 10px 0 10px; 
+}
 .text-proyects button{
 	display: inherit;
 	width: 90%;
