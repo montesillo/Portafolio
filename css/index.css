@@ -49,8 +49,15 @@
 }
 .main{
 	margin-top: 72px;
+	background-color: #113045;
+}
+.back{
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
 }
 .namePage{
+	background-color: white;
 	padding: 15px 0 15px 50px;
 }
 .namePage p{
@@ -59,9 +66,8 @@
 	font-weight: 700;
 }
 .coverPage{
-	padding-left: 70px;
-	padding-right: 70px;
-	background: #4B6475;
+	width: 100%;
+	background-color: #4B6475;
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 }
@@ -94,7 +100,7 @@
 .skills li{
 	display: inline;
 	text-align: center;
-	padding: 80px;
+	padding: 53px;
 	margin: 0 auto;
 }
 .title-proyects p{
@@ -160,7 +166,6 @@
 	cursor: pointer;
 }
 .footer{
-	margin-top: 20px;
 	padding: 25px 0;
 	background: #3498DB;
 }
