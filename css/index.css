@@ -26,9 +26,6 @@
 	justify-self: start;
 	margin-left: 50px;
 }
-.icons a{
-
-}
 .menu{
 	width: 500px;
 	height: auto;
@@ -174,4 +171,96 @@
 	text-align: center;
 	color: white;
 	font-weight: 500;
+}
+
+@media screen and (max-width: 1023px){
+	.icons{
+		display: block;
+		width: 100%;
+		margin-right: 0;
+		margin-left: 10px;
+
+	}
+	.icons a{
+		padding: 0 20px 0 20px;
+
+	}
+	.menu{
+		margin-right: 10px;
+	}
+	.back{
+		width: 100%;
+	}
+	.skills li{
+		display: inline;
+		text-align: center;
+		padding: 48px;
+		margin: 0 auto;
+	}
+	.content-proyects{
+		width: 100%;
+		background-color: #113045;
+	}
+}
+@media screen and (max-width: 767px){
+	.header{
+		display: block;
+		padding: 20px 0 20px 0;
+	}
+	.icons{
+		display: none;
+	}
+	.menu a{
+		padding: 0 60px 0 60px;
+	}
+	
+	.skills li{
+		padding: 22px;
+	}
+	.content-proyects{
+		grid-template-areas: "proyects";
+	}
+	.proyects .text-proyects{
+		margin: 0 50px 15px;
+		margin-top: -100px;
+	}
+	.footer{
+		padding: 0;
+	}
+	.footer .icons{
+		display: block;
+		padding: 10px 0 10px 0;
+	}
+	.footer .icons a{
+		padding: 0 6% 0 6%;
+	}
+	.footer p{
+		display: none;
+	}
+}
+@media screen and (max-width: 480px){
+	.header{
+		width: 100%;
+	}
+	.icons{
+		margin-left: 0;
+	}
+	.menu{
+		padding: 0;
+		width: 100%;
+	}
+	.menu a{
+		display: flex;
+		margin: 0;
+		padding: 0 15px 0 15px;
+	}
+	.skills li{
+		padding: 0 2px 0 2px;
+	}
+	li img{
+		height: 80px;
+	}
+	.footer .icons a{
+		padding: 0 18px 0 18px;
+	}
 }
