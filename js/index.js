@@ -8,3 +8,6 @@ function redirect(numero){
     }
 
 }
+function redirectBlog(){
+    location.href ="textBlog.html";
+}

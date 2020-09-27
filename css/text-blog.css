@@ -1,0 +1,36 @@
+
+.main{
+    background-color: #113045;
+}
+.hero-blog{
+	border: #3498DB none 1px;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+	width: 75%;
+	margin: 0 auto;
+    padding: 0 10px 0 10px;
+    background-color: white;
+}
+.hero-blog h4{
+	font-size: 35px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.hero-blog p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+article li{
+	list-style: none;
+}
+article ul li p span{
+	font-size: 1.2em;
+	font-weight: 700;
+}
+article ul li p{
+	padding-left: 10px;
+}
+.mark-text{
+	font-weight: 700;
+	font-size: initial;
+}
