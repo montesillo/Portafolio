@@ -11,27 +11,32 @@
 	display: flex;
 	width: 80%;
 	margin: 0 auto;
-	background-color: var(--background-color);
+	background-color: var(--fifth-color);
+}
+.box-article :hover{
+	cursor: pointer;
+	background: var(--secondary-color);
+	color: var(--background-color);
 }
 .box-article-text{
 	width: 40%;
-	background-color: var(--fifth-color);
+	background-color: var(--background-color);
 	padding: 30px;
 	text-align: center;
 }
-.box-article-text :hover{
-	cursor: pointer;
-}
 .box-article-img{
 	width: 60%;
-	background-color: var(--background-color);
+	background-color: var(--fifth-color);
 	text-align: center;
 }
 .box-article-text article{
-	margin-top: 25px;
 	text-align: justify;
 }
 .box-article-img div img{
+	height: 300px;
+	width: 100%;
+}
+.box-article-img div iframe{
 	height: 300px;
 	width: 100%;
 }
