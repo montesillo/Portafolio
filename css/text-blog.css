@@ -1,14 +1,20 @@
-
+:root{
+	--primary-color: #1b262c;
+	--secondary-color: #0f4c75;
+	--third-color: #3282b8;
+	--fourth-color: #bbe1fa;
+	--background-color: white;
+}
 .main{
-    background-color: #113045;
+    background-color: var(--secondary-color);
 }
 .hero-blog{
-	border: #3498DB none 1px;
+	border: var(--primary-color) none 1px;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 	width: 75%;
 	margin: 0 auto;
     padding: 0 10px 0 10px;
-    background-color: white;
+    background-color: var(--background-color);
 }
 .hero-blog h4{
 	font-size: 35px;
