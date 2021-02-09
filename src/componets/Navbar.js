@@ -22,9 +22,9 @@ class Navbar extends React.Component{
             </div>
             <div className="header__menu" id="header__menu">
                 <ul>
-                    <li><button>Acerca de mi</button></li>
-                    <li><button href="/">Habilidades</button></li>
-                    <li><button href="/">Proyectos</button></li>
+                    <li><button onClick={dropDownMenu}>Acerca de mi</button></li>
+                    <li><button onClick={dropDownMenu}>Habilidades</button></li>
+                    <li><button onClick={dropDownMenu} >Proyectos</button></li>
                 </ul>
             </div>
         </header>

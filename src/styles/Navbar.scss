@@ -1,12 +1,13 @@
-$color-header: #0a043c;
+$color-header: #0f3057;
 .header{
     color: white;
-  }
-  .header__logo{
+}
+.header__logo{
     background-color: $color-header;
     display: flex;
     justify-content: space-between;
     position: relative;
+    box-shadow: 0px 4px 11px 0px black;
     z-index: 2;
     p{
       margin: 10px 0 10px 0;
@@ -22,7 +23,6 @@ $color-header: #0a043c;
     position: absolute;
     width: 100%;
     background-color: $color-header;
-    color: red;
     text-align: center;
     margin-top: -120px;
     z-index: 1;
@@ -40,6 +40,6 @@ $color-header: #0a043c;
     }
   }
   .ocultarMenu{
-    transform: translate(0px, 100%);
+    transform: translate(0px, 105%);
   }
   

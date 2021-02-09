@@ -1,0 +1,9 @@
+$color-header: #0f3057;
+$color-secundario: #00587a;
+$color-terceario: #008891;
+$color-ultimo: #e7e7de;
+.hero{
+    height: 700px;
+    color: red;
+    background:  linear-gradient($color-header, $color-secundario, $color-terceario, $color-ultimo);
+}
