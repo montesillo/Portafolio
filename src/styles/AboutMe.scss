@@ -1,0 +1,18 @@
+@import './App.scss';
+.aboutMe{
+    color: white;
+    text-align: center;
+}
+.aboutMe h2{
+    margin: 20px 10px 10px 10px;
+}
+.aboutMe img{
+    width: 80%;
+    margin: 25px 0;
+    border: 5px solid $background-img;
+    border-radius: 20px;
+    box-shadow: 0px 5px 20px 6px $background-img;
+}
+.aboutMe p{
+    color: $color-ultimo;
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 
 import '../styles/Home.scss';
+import AboutMe from '../componets/AboutMe';
 class Home extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <section className="hero">
-                    <p>Holi</p>
-                </section>
+                <main className="main">
+                    <AboutMe/>
+                </main>
             </React.Fragment>
         )
     }
