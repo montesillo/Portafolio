@@ -1,12 +1,14 @@
-$color-header: #150485;
 $color-header: #0f3057;
 $color-two: #00587a;
 $color-three: #008891;
 $color-ultimo: #e7e7de;
 $background-img: #01222f;
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
 }

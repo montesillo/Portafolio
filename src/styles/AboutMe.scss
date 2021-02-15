@@ -2,17 +2,39 @@
 .aboutMe{
     color: white;
     text-align: center;
-}
-.aboutMe h2{
-    margin: 20px 10px 10px 10px;
-}
-.aboutMe img{
-    width: 80%;
-    margin: 25px 0;
-    border: 5px solid $background-img;
-    border-radius: 20px;
-    box-shadow: 0px 5px 20px 6px $background-img;
-}
-.aboutMe p{
-    color: $color-ultimo;
+    h2{
+        margin: 20px 10px 0 10px;
+        font-weight: 900;
+    }
+    img{
+        width: 80%;
+        margin: 5px 0 0 0;
+        border: 5px solid $background-img;
+        border-radius: 100%;
+        box-shadow: 0px 5px 20px 6px $background-img;
+    }
+    .aboutMe__title{
+        width: 50%;
+        position: absolute;
+        left: 25%;
+        right: 25%;
+        bottom: 260px;
+        padding: 5px;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 30px;
+        box-shadow: 0px 10px 20px $background-img;
+        p{
+            color: $color-header;
+            font-weight: 700;
+            margin: 0;
+        }
+    }
+    p{
+        color: $color-ultimo;
+        font-size: 1.2em;
+        margin-top: 40px;
+        padding-top: 0;
+    }
 }

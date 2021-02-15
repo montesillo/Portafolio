@@ -1,6 +1,7 @@
 @import './App.scss';
 .main{
-    height: 1000px;
+    height: 1500px;
     padding-top: 55px;
     background:  linear-gradient($color-header, $color-two, $color-three, $color-ultimo);
+    position: initial;
 }
